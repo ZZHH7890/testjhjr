@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="testObjects.testLink"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="testObjects.testLink">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testguideLinesLink" invocation-numbers="0"/>
+          <include name="AfterStop"/>
+          <include name="setUp"/>
+          <include name="BeforeStop"/>
+        </methods>
+      </class> <!-- testObjects.testLink -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
